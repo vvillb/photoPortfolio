@@ -1,9 +1,10 @@
-import { Card, CardMedia, Grid, Typography } from '@mui/material'
+import { Button, Card, CardMedia, Grid, Typography } from '@mui/material'
 import aboutimg from '../assets/images/verbena/verb22.jpg'
 import portfolioimg from '../assets/images/moodstories/mood21.jpg'
 import contactimg from '../assets/images/m2/m21.jpg'
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Hero() {
   return (
@@ -14,6 +15,7 @@ function Hero() {
       <Grid container direction='row' spacing={2} padding='10%' maxWidth='100vw'>
 
         <Grid item xs={12} sm={4}>
+            <Link to='/about'>
             <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0
@@ -22,12 +24,19 @@ function Hero() {
                 component="img"
                 loading="lazy"
                 image={aboutimg}/>
-            </Card>
-            <Typography>
+            </Card> 
+            </Link>
+            <Typography variant='subtitle'
+            sx={{
+                color:'dark.main',
+                
+            }}>
                 About
             </Typography>
+           
         </Grid>
         <Grid item xs={12} sm={4}>
+        <Link to='/portfolio'>
         <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0
@@ -37,11 +46,13 @@ function Hero() {
                 loading="lazy"
                 image={portfolioimg}/>
             </Card>
+            </Link>
             <Typography>
                 Portfolio
             </Typography>
         </Grid>
         <Grid item xs={12} sm={4}>
+            <Link to='/contact'>
         <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0
@@ -51,6 +62,7 @@ function Hero() {
                 loading="lazy"
                 image={contactimg}/>
             </Card>
+            </Link>
             <Typography>
                 Contact
             </Typography>
