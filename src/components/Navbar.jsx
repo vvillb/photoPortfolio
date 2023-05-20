@@ -54,19 +54,28 @@ const NavBar = () => {
             <Grid  container justifyContent='flex-start'
             >
             <Link to='/'  sx={{ flexGrow: 1 }}>
-            <Typography variant="h6" component="div" color="dark.main"  sx={{ flexGrow: 1 }}>
-              Virginia
-            </Typography>
+            <Button
+            sx={{
+              ':hover':{
+                color:'dark.main'
+              }
+            }}
+            >
+             {/* <Typography variant="h6" component="div" color="dark.main"  sx={{ flexGrow: 1 , textDecoration:'none',':hover':{color:'backgorund.main'}}}> */}
+              virginia
+            {/* </Typography> */}
+            </Button>
+            
             </Link>
             </Grid>
             <Grid container sx={{ display: { xs: 'none', md: 'flex' }}}>
             <Grid sx={{ display:'flex', justifyContent:'flex-end', flexGrow:1}}>
               {navItems.map((item) => (
                 <Link key={item.id} to={item.path} >
-                <Button key={item.id} color="dark"  
+                <Button key={item.id} color="primary"  
                 sx={{
                   ':hover':{
-                    color:'background.main'
+                    color:'dark.main'
                   }
                 }}>
                   {item.title}

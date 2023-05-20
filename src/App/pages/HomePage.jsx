@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../../layout/LAyout'
 import { Grid } from '@mui/material'
+import Hero from '../../components/Hero'
 
 const HomePage = () => {
   return (
@@ -10,7 +11,7 @@ const HomePage = () => {
       backgroundColor:'background.main'
     }}>
       <Grid item>
-        <h1>Home</h1>
+        <Hero/>
       </Grid>
       
     </Grid>
