@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Grid } from '@mui/material'
+import { Button, Grid } from '@mui/material'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
@@ -19,16 +19,31 @@ const Footer = () => {
 
       }}>
         <Link to='https://www.instagram.com/v.villb/'>
+        <Button
+            sx={{
+              ':hover':{
+                color:'dark.main'
+              }
+            }}>
           <InstagramIcon
           color="inherit"
           aria-label="instagram"/>
+          </Button>
         </Link>
       </Grid>
-      <Grid item>
+      <Grid item>        
         <Link to='mailto:virginiavt98@gmail.com'>
-          <MailOutlineIcon
-          color="inherit"
-          aria-label="mail"/>
+          <Button
+            sx={{
+              ':hover':{
+                color:'dark.main'
+              }
+            }}>
+            <MailOutlineIcon
+            color="inherit"
+            aria-label="mail"/>
+          </Button>
+          
         </Link>
       </Grid>
     </Grid>
