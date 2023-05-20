@@ -20,7 +20,7 @@ const NavBar = () => {
   };
 
   const drawer = (
-    <Grid sx={{ width: 250 }}>
+    <Grid sx={{ width: 250, backgroundColor:'background.main' }}>
       <List>
         {navItems.map((item) => (
           <ListItem key={item.id} disablePadding>
@@ -40,7 +40,7 @@ const NavBar = () => {
       <HideOnScroll> 
        
         <AppBar   sx={{maxWidth:'100vw', position: 'fixed', left: 0, right: 0}}>
-          <Toolbar  sx={{textAlign:'left', justifyContent:'space-around'}}>
+          <Toolbar  sx={{textAlign:'left', justifyContent:'space-around',backgroundColor:'background.main'}}>
             <IconButton
               size="large"
               edge="start"
@@ -51,9 +51,10 @@ const NavBar = () => {
             >
               <MenuOutlined />
             </IconButton>
-            <Grid  container justifyContent='flex-start'>
+            <Grid  container justifyContent='flex-start'
+            >
             <Link to='/'  sx={{ flexGrow: 1 }}>
-            <Typography variant="h6" component="div" color="secondary" sx={{ flexGrow: 1 }}>
+            <Typography variant="h6" component="div" color="dark.main"  sx={{ flexGrow: 1 }}>
               Virginia
             </Typography>
             </Link>
@@ -62,10 +63,10 @@ const NavBar = () => {
             <Grid sx={{ display:'flex', justifyContent:'flex-end', flexGrow:1}}>
               {navItems.map((item) => (
                 <Link key={item.id} to={item.path} >
-                <Button key={item.id} color="secondary"  
+                <Button key={item.id} color="dark"  
                 sx={{
                   ':hover':{
-                    color:'error.main'
+                    color:'background.main'
                   }
                 }}>
                   {item.title}
