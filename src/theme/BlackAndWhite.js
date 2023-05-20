@@ -16,41 +16,41 @@ export const BlackAndWhite=createTheme({
     },
         typography:{
         h1:{
-            fontFamily: 'Nanum Gothic'
+            fontFamily: 'Playfair Display'
         },
         h2:{
-            fontFamily: 'Nanum Gothic'
+            fontFamily: 'Source Sans Pro'
         },
         h3:{
-            fontFamily: 'Nanum Gothic'
+            fontFamily: 'Source Sans Pro'
         },h4:{
-            fontFamily: 'Nanum Gothic'
+            fontFamily: 'Source Sans Pro'
         },
         h5:{
-            fontFamily: 'Nanum Gothic'   
+            fontFamily: 'Source Sans Pro'   
         },     
         h6:{
-            fontFamily: 'Nanum Gothic'        
+            fontFamily: 'Source Sans Pro'        
         },
         subtitle1:{
-            fontFamily: 'Nanum Gothic'  
+            fontFamily: 'Source Sans Pro'  
         },
         subtitle2:{
-            fontFamily: 'Nanum Gothic'  
+            fontFamily: 'Source Sans Pro'  
         },
         body1:{
-            fontFamily: 'Nanum Gothic'          },
+            fontFamily: 'Cardo'          },
         body2:{
-            fontFamily: 'Nanum Gothic'  
+            fontFamily: 'Source Sans Pro'  
         },
         button:{
-            fontFamily: 'Nanum Gothic'  
+            fontFamily: 'Source Sans Pro'  
         },
         caption:{
-            fontFamily: 'Nanum Gothic'  
+            fontFamily: 'Source Sans Pro'  
         },
         overline:{
-            fontFamily: 'Nanum Gothic'  
+            fontFamily: 'Source Sans Pro'  
         },        
     }
 })
