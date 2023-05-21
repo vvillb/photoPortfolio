@@ -9,8 +9,9 @@ const Portada = () => {
     sx={{
     height: '100vh',
         background: `url(${playa})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundSize: 'fit',
+        position:'relative',
+        backgroundPosition: 'right',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
