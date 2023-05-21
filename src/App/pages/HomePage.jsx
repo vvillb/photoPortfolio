@@ -3,6 +3,7 @@ import Layout from '../../layout/LAyout'
 import { Card, CardMedia, Grid, Typography } from '@mui/material'
 import Hero from '../../components/Hero'
 import gif from '../../assets/videos/olga.gif'
+import Portada from '../../components/Portada'
 
 const HomePage = () => {
   return (
@@ -15,9 +16,10 @@ const HomePage = () => {
       
     
     }}>
-    <Grid item padding='5%'>
+    {/* <Grid item padding='5%'>
     <Typography variant='h2'>Virginia Villalobos</Typography>
-    </Grid>
+    </Grid> */}
+    <Portada/>
   <Grid item >
     <Hero />
   </Grid>

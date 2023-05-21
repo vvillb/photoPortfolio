@@ -15,6 +15,9 @@ function Hero() {
        justifyContent="center"
        alignItems="center"
        maxWidth='100vw'  
+       sx={{
+backgroundColor:'background.main'
+       }}
        >
 
         <Grid item xs={12} sm={4} justifyContent='center' 
