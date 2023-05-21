@@ -19,7 +19,7 @@ export const BlackAndWhite=createTheme({
             fontFamily: 'Playfair Display'
         },
         h2:{
-            fontFamily: 'Source Sans Pro'
+            fontFamily: 'Playfair Display'
         },
         h3:{
             fontFamily: 'Source Sans Pro'
@@ -52,5 +52,6 @@ export const BlackAndWhite=createTheme({
         overline:{
             fontFamily: 'Source Sans Pro'  
         },        
+       
     }
 })

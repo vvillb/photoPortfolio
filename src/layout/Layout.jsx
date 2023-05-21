@@ -8,6 +8,7 @@ const Layout = ({children}) => {
     <Box>
       <NavBar/>
       <Box
+      
      >
         <Toolbar/>
         {children}

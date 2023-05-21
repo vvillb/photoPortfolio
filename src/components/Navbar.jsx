@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 import HideOnScroll from '../functions/HideOnScroll';
 
 const navItems = [
-  { id:1, title: 'Home', path: '/' },
-  { id:2, title: 'About', path: '/about' },
-  { id:3, title: 'Contact', path: '/contact' },
-  { id:3, title: 'Portfolio', path: '/Portfolio' },
+  { id:1, title: 'HOME', path: '/' },
+  { id:2, title: 'ABOUT', path: '/about' },
+  { id:3, title: 'CONTACT', path: '/contact' },
+  { id:3, title: 'PORTFOLIO', path: '/Portfolio' },
   
 ];
 
@@ -20,14 +20,26 @@ const NavBar = () => {
   };
 
   const drawer = (
-    <Grid sx={{ width: 250, backgroundColor:'background.main' }}>
+    <Grid sx={{ width: 250, backgroundColor:'background.main' ,minHeight:'100vh'}}>
       <List>
         {navItems.map((item) => (
           <ListItem key={item.id} disablePadding>
             <Link to={item.path} onClick={handleDrawerToggle}>
-            <ListItemButton >
-              <ListItemText primary={item.title} />
-            </ListItemButton>
+            <Button
+            sx={{ 
+              color:'dark.main',
+              textDecorationColor:'background.main',
+              ':hover':{
+                color:'dark.gray'
+              }
+             }
+             
+            } >
+              <Button 
+              sx={{
+                
+              }} />{item.title}
+            </Button>
             </Link>
           </ListItem>
         ))}
