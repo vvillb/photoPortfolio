@@ -1,4 +1,4 @@
-import { Button, Card, CardMedia, Grid, Typography } from '@mui/material'
+import { Button, Grid, Typography } from '@mui/material'
 import  playa from '../assets/videos/olga.gif'
 import { Link } from 'react-router-dom'
 

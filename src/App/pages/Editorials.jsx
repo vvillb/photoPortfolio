@@ -1,6 +1,5 @@
-import React from 'react'
 import Layout from '../../layout/LAyout'
-import { Card, CardMedia, Grid, ImageList, ImageListItem, Typography } from '@mui/material'
+import { Grid, ImageList, ImageListItem, Typography } from '@mui/material'
 import m21 from '../../assets/images/m2/m25.jpg'
 import m22 from '../../assets/images/m2/m21.jpg'
 import m23 from '../../assets/images/m2/m22.jpg'

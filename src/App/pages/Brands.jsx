@@ -1,4 +1,3 @@
-import React from 'react'
 import Layout from '../../layout/LAyout'
 import { Card, CardMedia, Grid, Typography } from '@mui/material'
 import { Link } from 'react-router-dom'
