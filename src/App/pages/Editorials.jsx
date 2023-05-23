@@ -13,7 +13,13 @@ import mauro3 from '../../assets/images/mauro/mauro3.jpg'
 import mauro2 from '../../assets/images/mauro/mauro2.jpg'
 import mauro1 from '../../assets/images/mauro/mauro1.jpg'
 import mauro4 from '../../assets/images/mauro/mauro4.jpg'
-
+import julio1 from '../../assets/images/julioxalba/julio1.jpg'
+import julio12 from '../../assets/images/julioxalba/julio12.jpg'
+import julio2 from '../../assets/images/julioxalba/julio2.jpg'
+import julio3 from '../../assets/images/julioxalba/julio3.jpg'
+import julio7 from '../../assets/images/julioxalba/julio7.jpg'
+import arquesshoot1 from '../../assets/images/verdicio/Arqueshoot1.jpg'
+import verdicio4  from '../../assets/images/verdicio/verdicio4.jpg'
 
 
 const itemData = [
@@ -27,7 +33,7 @@ const itemData = [
   },{
     img: m23,
     title: 'm2visualstudio',
-    author:'on vogue italia wearing lucía incera  '
+    
   },{
     img:  m24,
     title: 'm2visualstudio',
@@ -57,6 +63,30 @@ const itemData = [
   },{
     img:  mauro4,
     title: 'maurotesta',
+  }, {
+    img: julio12,
+    title: 'julioxalba',
+    author:'julio murias x alba granda stylist 2019'
+  },{
+    img: julio1,
+    title: 'julioxalba',
+  },{
+    img: julio2,
+    title: 'julioxalba',
+  },{
+    img:  julio3,
+    title: 'julioxalba',
+  },{
+    img:  julio7,
+    title: 'julioxalba',
+  },{
+    img:  arquesshoot1,
+    title: 'julioxalba',
+    author:'pablo arquero 2023'
+  },{
+    img:  verdicio4,
+    title: 'nacho',
+    author:'fran goyos 2023'
   },
 ]
 
@@ -85,7 +115,7 @@ backgroundColor:'background.main'
         </Typography>
         </Grid>
         
-    <ImageList variant='masonry' cols={3} gap={8}>
+    <ImageList variant='masonry' cols={2} gap={8}>
     {itemData.map((item) => (
     <ImageListItem key={item.img}>
        
