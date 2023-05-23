@@ -1,4 +1,5 @@
 import Layout from '../../layout/LAyout'
+import { useEffect } from 'react'
 import { Grid, ImageList, ImageListItem, Typography } from '@mui/material'
 import portrait1 from '../../assets/images/alba/alba1.jpeg'
 import portrait2 from '../../assets/images/alba/alba2.jpg'
@@ -6,6 +7,7 @@ import portrait3 from '../../assets/images/alba/alba8.jpg'
 import portrait4 from '../../assets/images/alba/alba6.jpg'
 import portrait5 from '../../assets/images/alba/alba4.jpg'
 import portrait6 from '../../assets/images/alba/alba10.jpeg'
+
  
 
 const itemData=[
@@ -36,6 +38,12 @@ const itemData=[
   }
 ]
 function Portraits() {
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  
+  },[])
+
   return (
     <Layout>
     

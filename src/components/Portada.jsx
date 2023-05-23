@@ -22,12 +22,18 @@ const Portada = () => {
         sx={{
             padding:'10%'
         }}>Virginia Villalobos</Typography>
-        <Link to='/portfolio'>
+          <Link to='/portfolio'>
         <Button
         sx={{
-            padding:'10%',
+            color:'primary.darker',
+            backgroundColor:'primary.main',
+            marginTop:'10%',
+            marginLeft:'10%',
+            padding:'1%',
+            boxShadow:'0px 10px 10px rgba(0, 0, 0, 0.2)',
             ':hover':{
                 color:'dark.main',
+                backgroundColor:'primary.darker'
                
             }
         }}>

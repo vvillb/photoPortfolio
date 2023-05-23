@@ -1,9 +1,15 @@
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 import Layout from '../../layout/LAyout'
 import { Button, Grid, Typography } from '@mui/material'
 import playa from '../../assets/images/moodstories/mood6.jpg'
 
+
 function About() {
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  
+  },[])
   return (
     <Layout>
       <Grid container
@@ -86,6 +92,7 @@ function About() {
             backgroundColor:'primary.main',
             marginTop:'10%',
             padding:'4%',
+            boxShadow:'0px 10px 10px rgba(0, 0, 0, 0.2)',
             ':hover':{
                 color:'dark.main',
                 backgroundColor:'primary.darker'

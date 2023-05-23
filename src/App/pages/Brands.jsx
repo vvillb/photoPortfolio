@@ -1,4 +1,5 @@
 import Layout from '../../layout/LAyout'
+import { useEffect } from 'react'
 import { Card, CardMedia, Grid, Typography } from '@mui/material'
 import { Link } from 'react-router-dom'
 import verbena from '../../assets/images/verbena/verb2.jpg'
@@ -9,7 +10,13 @@ import parole from '../../assets/images/parole/parole10.jpg'
 import flaman from '../../assets/images/flaman/flaman2.jpg'
 
 
+
 function Brands() {
+    useEffect(()=>{
+        window.scrollTo(0,0);
+      
+      },[])
+
   return (
     <Layout>
      <Grid container direction='row'  display='flex'

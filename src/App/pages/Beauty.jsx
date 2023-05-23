@@ -1,4 +1,5 @@
 import Layout from '../../layout/LAyout'
+import { useEffect } from 'react'
 import { Grid, ImageList, ImageListItem, Typography } from '@mui/material'
 import nuria1 from '../../assets/images/nuria/nuria1.jpg'
 import nuria10 from '../../assets/images/nuria/nuria10.jpg'
@@ -13,6 +14,7 @@ import sara7  from '../../assets/images/sarazalop/sara7.jpg'
 import sara2  from '../../assets/images/sarazalop/sara2.jpg'
 import sara4 from '../../assets/images/sarazalop/sara3.jpg'
 import sara10 from '../../assets/images/sarazalop/sara10.jpg'
+
 
 
 const itemData=[
@@ -72,6 +74,11 @@ const itemData=[
     },
 ]
 function Beauty() {
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  
+  },[])
   return (
     <Layout>
     

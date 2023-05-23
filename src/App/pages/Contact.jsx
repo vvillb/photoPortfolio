@@ -1,9 +1,17 @@
 import Layout from '../../layout/LAyout'
+import { useEffect } from 'react'
 import { Button, Grid, Typography } from '@mui/material'
 import { Link } from 'react-router-dom'
 import playa from  '../../assets/images/alba/alba5copy.jpg'
 
+
 function Contact() {
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  
+  },[])
+
   return (
     <Layout>
       <Grid container
@@ -49,21 +57,7 @@ function Contact() {
           </Typography>
           
         </Grid>
-        {/* <Grid item xs={8} md={6}
-            sx={{
-                    background: `url(${playa})`,
-                    backgroundSize: 'cover',
-                    position:'relative',
-                    
-                }}>
-                    <Button sx={{
-                        height:'100vh'
-                    }}>
-                        
-                    </Button>
-                
-            
-            </Grid> */}
+       
       </Grid>
     </Layout>
   )

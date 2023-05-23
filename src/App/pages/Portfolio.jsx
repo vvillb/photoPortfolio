@@ -1,4 +1,5 @@
 import Layout from '../../layout/LAyout'
+import { useEffect } from 'react'
 import { Card, CardMedia, Grid, Typography } from '@mui/material'
 import { Link } from 'react-router-dom'
 import editorialsimg from '../../assets/images/m2/m22.jpg'
@@ -8,7 +9,14 @@ import brandsimg from '../../assets/images/verbena/verb15.jpg'
 
 
 
+
 function Portfolio() {
+
+    useEffect(()=>{
+        window.scrollTo(0,0);
+      
+      },[])
+
   return (
     <Layout>
  <Grid container direction='row'  display='flex'

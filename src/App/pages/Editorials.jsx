@@ -1,4 +1,5 @@
 import Layout from '../../layout/LAyout'
+import { useEffect } from 'react'
 import { Grid, ImageList, ImageListItem, Typography } from '@mui/material'
 import m21 from '../../assets/images/m2/m25.jpg'
 import m22 from '../../assets/images/m2/m21.jpg'
@@ -19,6 +20,7 @@ import julio3 from '../../assets/images/julioxalba/julio3.jpg'
 import julio7 from '../../assets/images/julioxalba/julio7.jpg'
 import arquesshoot1 from '../../assets/images/verdicio/Arqueshoot1.jpg'
 import verdicio4  from '../../assets/images/verdicio/verdicio4.jpg'
+
 
 
 const itemData = [
@@ -90,6 +92,13 @@ const itemData = [
 ]
 
 function Editorials() {
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  
+  },[])
+
+
   return (
     <Layout>
     
