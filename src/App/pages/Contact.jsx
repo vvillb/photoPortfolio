@@ -1,12 +1,70 @@
-import React from 'react'
 import Layout from '../../layout/LAyout'
+import { Button, Grid, Typography } from '@mui/material'
+import { Link } from 'react-router-dom'
+import playa from  '../../assets/images/alba/alba5copy.jpg'
 
 function Contact() {
   return (
     <Layout>
-    <div>
-      CONTACT PAGE
-    </div>
+      <Grid container
+      sx={{
+        background: `url(${playa})`,
+        backgroundSize:'cover',       
+          height: '125vh',
+          display: 'flex',
+          justifyContent: 'flex-start',
+          alignItems: 'top',
+          width:'100vw',
+          flexDirection:'row',
+         
+      }}>
+        <Grid item 
+        sx={{
+          color: 'dark.main',
+          padding:'5%',
+          
+        }}>
+          
+          <Typography variant='h4' 
+          
+            >
+            email: <Link to='mailto:virginiavt98@gmail.com'>
+              <Button
+              sx={{
+                ':hover':{color:'dark.main'}
+              }}
+              ><b>virginiavt98@gmail.com</b></Button>
+              </Link>
+          </Typography>
+         
+          
+          <Typography variant='h4'>
+            instagram: <Link to='https://www.instagram.com/v.villb/'>
+              <Button
+              sx={{
+                ':hover':{color:'dark.main'}
+              }}
+              ><b>@v.villb</b></Button>
+              </Link>
+          </Typography>
+          
+        </Grid>
+        {/* <Grid item xs={8} md={6}
+            sx={{
+                    background: `url(${playa})`,
+                    backgroundSize: 'cover',
+                    position:'relative',
+                    
+                }}>
+                    <Button sx={{
+                        height:'100vh'
+                    }}>
+                        
+                    </Button>
+                
+            
+            </Grid> */}
+      </Grid>
     </Layout>
   )
 }

@@ -22,35 +22,35 @@ export const BlackAndWhite=createTheme({
             fontFamily: 'Playfair Display'
         },
         h3:{
-            fontFamily: 'Source Sans Pro'
+            fontFamily: 'Cardo'
         },h4:{
-            fontFamily: 'Source Sans Pro'
+            fontFamily: 'Playfair Display'
         },
         h5:{
-            fontFamily: 'Source Sans Pro'   
+            fontFamily: 'Cardo'   
         },     
         h6:{
-            fontFamily: 'Source Sans Pro'        
+            fontFamily: 'Cardo'        
         },
         subtitle1:{
-            fontFamily: 'Source Sans Pro'  
+            fontFamily: 'Cardo'  
         },
         subtitle2:{
-            fontFamily: 'Source Sans Pro'  
+            fontFamily: 'Cardo'  
         },
         body1:{
             fontFamily: 'Cardo'          },
         body2:{
-            fontFamily: 'Source Sans Pro'  
+            fontFamily: 'Cardo'  
         },
         button:{
-            fontFamily: 'Source Sans Pro'  
+            fontFamily: 'Cardo'  
         },
         caption:{
-            fontFamily: 'Source Sans Pro'  
+            fontFamily: 'Cardo'  
         },
         overline:{
-            fontFamily: 'Source Sans Pro'  
+            fontFamily: 'Cardo'  
         },        
        
     }

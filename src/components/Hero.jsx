@@ -1,9 +1,8 @@
-import { Button, Card, CardMedia, Container, Grid, Typography } from '@mui/material'
+import {  Card, CardMedia,  Grid, Typography } from '@mui/material'
 import aboutimg from '../assets/images/verbena/verb22.jpg'
 import portfolioimg from '../assets/images/moodstories/mood21.jpg'
 import contactimg from '../assets/images/m2/m21.jpg'
 
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Hero() {
@@ -14,7 +13,7 @@ function Hero() {
        padding='10%' 
        justifyContent="center"
        alignItems="center"
-       maxWidth='100vw'  
+       with='100vw'  
       
        sx={{
 backgroundColor:'background.main'

@@ -47,16 +47,7 @@ const Portada = () => {
                         
                     </Button>
                 
-            {/* <Card sx={{
-               
-                borderRadius:0,
-                maxHeight:'50vh'
-            }}>
-                <CardMedia
-                component="img"
-                loading="lazy"
-                image={playa}/>
-            </Card>  */}
+            
             </Grid>
            
 
