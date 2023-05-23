@@ -15,6 +15,7 @@ function Hero() {
        justifyContent="center"
        alignItems="center"
        maxWidth='100vw'  
+      
        sx={{
 backgroundColor:'background.main'
        }}
