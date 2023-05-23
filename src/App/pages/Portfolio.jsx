@@ -67,7 +67,7 @@ backgroundColor:'background.main'
             </Typography>
         </Grid>
         <Grid item xs={12} sm={6} lg={3}>
-            <Link to='/beauty'>
+            <Link to='/portraits'>
         <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0,

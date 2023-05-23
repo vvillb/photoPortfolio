@@ -26,7 +26,7 @@ const itemData = [
   {
     img: m21,
     title: 'm2visulastudio',
-    author:'m2 visual studio 2020'
+    author:'m2 visual studio '
   },{
     img: m22,
     title: 'm2visualstudio',
@@ -40,7 +40,7 @@ const itemData = [
   }, {
     img: alba3,
     title: 'albagarcia',
-    author:'alba garcía 2020'
+    author:'alba garcía '
   },{
     img: alba11,
     title: 'albagarcia',
@@ -53,7 +53,7 @@ const itemData = [
   }, {
     img: mauro3,
     title: 'maurotesta',
-    author:'mauro testa 2020'
+    author:'mauro testa '
   },{
     img: mauro2,
     title: 'maurotesta',
@@ -66,7 +66,7 @@ const itemData = [
   }, {
     img: julio12,
     title: 'julioxalba',
-    author:'julio murias x alba granda stylist 2019'
+    author:'julio murias x alba granda stylist '
   },{
     img: julio1,
     title: 'julioxalba',
@@ -82,11 +82,11 @@ const itemData = [
   },{
     img:  arquesshoot1,
     title: 'julioxalba',
-    author:'pablo arquero 2023'
+    author:'pablo arquero '
   },{
     img:  verdicio4,
     title: 'nacho',
-    author:'fran goyos 2023'
+    author:'fran goyos '
   },
 ]
 
@@ -125,7 +125,7 @@ backgroundColor:'background.main'
         alt={item.title}
         loading="lazy"
       />
-      <Typography>
+      <Typography variant='h6'>
         {item.author}
       </Typography>
      

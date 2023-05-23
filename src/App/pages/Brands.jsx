@@ -29,7 +29,7 @@ backgroundColor:'background.main'
         <Grid item xs={12} sm={6} lg={4} 
         sx={{
         }}>
-            <Link to='/editorials'>
+            <Link to='/verbena'>
             <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0,
@@ -51,7 +51,7 @@ backgroundColor:'background.main'
            
         </Grid>
         <Grid item xs={12} sm={6} lg={4}>
-        <Link to='/beauty'>
+        <Link to='/moodstories'>
         <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0,
@@ -68,7 +68,7 @@ backgroundColor:'background.main'
             </Typography>
         </Grid>
         <Grid item xs={12} sm={6} lg={4}>
-            <Link to='/beauty'>
+            <Link to='/celiab'>
         <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0,
@@ -85,7 +85,7 @@ backgroundColor:'background.main'
             </Typography>
         </Grid>
         <Grid item xs={12} sm={6} lg={4}>
-            <Link to='/brands'>
+            <Link to='/cosmiel'>
         <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0,
@@ -102,7 +102,7 @@ backgroundColor:'background.main'
             </Typography>
         </Grid>
         <Grid item xs={12} sm={6} lg={4}>
-            <Link to='/brands'>
+            <Link to='/parole'>
         <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0,
@@ -119,7 +119,7 @@ backgroundColor:'background.main'
             </Typography>
         </Grid>
         <Grid item xs={12} sm={6} lg={4}>
-            <Link to='/brands'>
+            <Link to='/flaman'>
         <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0,
