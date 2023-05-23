@@ -1,4 +1,3 @@
-import React from 'react'
 import Layout from '../../../layout/LAyout'
 import { Grid, ImageList, ImageListItem, Typography } from '@mui/material'
 import foto1 from '../../../assets/images/celiab/celia10.jpg'
