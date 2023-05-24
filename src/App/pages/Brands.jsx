@@ -1,4 +1,4 @@
-import Layout from '../../layout/LAyout'
+import Layout from '../../layout/Layout'
 import { useEffect } from 'react'
 import { Card, CardMedia, Grid, Typography } from '@mui/material'
 import { Link } from 'react-router-dom'

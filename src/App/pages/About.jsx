@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
-import Layout from '../../layout/LAyout'
+import Layout from '../../layout/Layout'
 import { Button, Grid, Typography } from '@mui/material'
 import playa from '../../assets/images/moodstories/mood6.jpg'
 

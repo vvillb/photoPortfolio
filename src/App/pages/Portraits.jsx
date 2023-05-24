@@ -1,4 +1,4 @@
-import Layout from '../../layout/LAyout'
+import Layout from '../../layout/Layout'
 import { useEffect } from 'react'
 import { Grid, ImageList, ImageListItem, Typography } from '@mui/material'
 import portrait1 from '../../assets/images/alba/alba1.jpeg'

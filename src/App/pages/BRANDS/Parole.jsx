@@ -1,4 +1,4 @@
-import Layout from '../../../layout/LAyout'
+import Layout from '../../../layout/Layout'
 import { Grid, ImageList, ImageListItem, Typography } from '@mui/material'
 import foto1 from '../../../assets/images/parole/parole2.jpg'
 import foto2 from '../../../assets/images/parole/parole5.jpg'

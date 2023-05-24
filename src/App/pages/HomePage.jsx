@@ -1,5 +1,5 @@
 
-import Layout from '../../layout/LAyout'
+import Layout from '../../layout/Layout'
 import { useEffect } from 'react'
 import {  Grid } from '@mui/material'
 import Hero from '../../components/Hero'
