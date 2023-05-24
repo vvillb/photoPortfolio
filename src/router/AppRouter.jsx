@@ -12,7 +12,7 @@ import Verbena from '../App/pages/BRANDS/Verbena'
 import MoodStories from '../App/pages/BRANDS/MoodStories'
 import CeliaB from '../App/pages/BRANDS/CeliaB'
 import Cosmiel from '../App/pages/BRANDS/Cosmiel'
-import Parole from '../App/pages/BRANDS/PArole'
+import Parole from '../App/pages/BRANDS/Parole'
 import Flaman from '../App/pages/BRANDS/Flaman'
 
 
