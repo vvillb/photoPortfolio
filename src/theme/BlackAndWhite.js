@@ -16,15 +16,15 @@ export const BlackAndWhite=createTheme({
     },
         typography:{
         h1:{
-            fontFamily: "'Playfair Display','Pacifico','Abril Fatface'"
+            fontFamily: "'Playfair Display','Abril Fatface'"
         },
         h2:{
-            fontFamily:  "'Playfair Display','Pacifico','Abril Fatface'"
+            fontFamily:  "'Playfair Display','Abril Fatface'"
         },
         h3:{
             fontFamily: "'Cardo','Fira Sans','Cormorant Garamond'"
         },h4:{
-            fontFamily:  "'Playfair Display','Pacifico','Abril Fatface'"
+            fontFamily:  "'Playfair Display','Abril Fatface'"
         },
         h5:{
             fontFamily: "'Cardo','Fira Sans','Cormorant Garamond'"  

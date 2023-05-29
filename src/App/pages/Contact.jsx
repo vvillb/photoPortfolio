@@ -36,7 +36,8 @@ function Contact() {
           <Typography variant='h4' 
           
             >
-            email: <Link to='mailto:virginiavt98@gmail.com'>
+            email: <Link to='mailto:virginiavt98@gmail.com' underline="none"
+>
               <Button
               sx={{
                 ':hover':{color:'dark.main'}
@@ -47,7 +48,8 @@ function Contact() {
          
           
           <Typography variant='h4'>
-            instagram: <Link to='https://www.instagram.com/v.villb/'>
+            instagram: <Link to='https://www.instagram.com/v.villb/' underline="none"
+>
               <Button
               sx={{
                 ':hover':{color:'dark.main'}

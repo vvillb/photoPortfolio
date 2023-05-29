@@ -1,12 +1,12 @@
-import { Button, Grid, Typography } from '@mui/material'
+import { Button, Card, CardMedia, Grid, Link, Typography } from '@mui/material'
+import { Link as RouterLink, MemoryRouter } from 'react-router-dom';
 import  playa from '../assets/videos/olga.gif'
-import { Link } from 'react-router-dom'
 
 
 
 const Portada = () => {
   return (
-    <Grid
+    <Grid container
     sx={{
         height: '100vh',
         display: 'flex',
@@ -16,13 +16,18 @@ const Portada = () => {
         flexDirection:'row',
         backgroundColor:'background.main'
     }}
-        > <Grid item xs={3} md={6}
+        > <Grid item xs={12} md={6}
+        sx={{
+            paddingBottom:'10%'
+        }}
         >
         <Typography variant='h2'
         sx={{
+            
             padding:'10%'
         }}>Virginia Villalobos</Typography>
-          <Link to='/portfolio'>
+          <Link component={RouterLink} to='/portfolio' underline="none"
+            >
         <Button
         sx={{
             color:'primary.darker',
@@ -40,18 +45,21 @@ const Portada = () => {
             <b>view portfolio</b>
         </Button></Link>
         </Grid>
-            <Grid item xs={8} md={6}
+        
+            <Grid item xs={12} md={6}
             sx={{
-                    background: `url(${playa})`,
-                    backgroundSize: 'cover',
-                    position:'relative',
                     
                 }}>
-                    <Button sx={{
-                        height:'100vh'
-                    }}>
-                        
-                    </Button>
+                    <Card sx={{
+           
+                borderRadius:0,
+                
+            }}>
+                <CardMedia
+                component="img"
+                loading="lazy"
+                image={playa}/>
+            </Card>
                 
             
             </Grid>

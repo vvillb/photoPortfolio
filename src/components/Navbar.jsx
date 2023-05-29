@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { AppBar, Grid, Button, Drawer, IconButton, List, ListItem, ListItemButton, ListItemText, Toolbar, Typography } from "@mui/material";
 import { MenuOutlined } from '@mui/icons-material';
-import { Link } from 'react-router-dom';
 import HideOnScroll from '../functions/HideOnScroll';
+import Link from '@mui/material/Link';
+import { Link as RouterLink, MemoryRouter } from 'react-router-dom';
 
 const navItems = [
   { id:1, title: 'HOME', path: '/' },
@@ -24,7 +25,8 @@ const NavBar = () => {
       <List>
         {navItems.map((item) => (
           <ListItem key={item.id} disablePadding>
-            <Link to={item.path} onClick={handleDrawerToggle}>
+            <Link component={RouterLink} to={item.path} onClick={handleDrawerToggle} underline="none"
+>
             <Button
             sx={{ 
               color:'dark.main',
@@ -65,7 +67,8 @@ const NavBar = () => {
             </IconButton>
             <Grid  container justifyContent='flex-start'
             >
-            <Link to='/'  sx={{ flexGrow: 1 }}>
+            <Link to='/'  sx={{ flexGrow: 1 }} underline="none" component={RouterLink}
+>
             <Button
             sx={{
               ':hover':{
@@ -83,7 +86,7 @@ const NavBar = () => {
             <Grid container sx={{ display: { xs: 'none', md: 'flex' }}}>
             <Grid sx={{ display:'flex', justifyContent:'flex-end', flexGrow:1}}>
               {navItems.map((item) => (
-                <Link key={item.id} to={item.path} >
+                <Link key={item.id} to={item.path} component={RouterLink} >
                 <Button key={item.id} color="primary"  
                 sx={{
                   ':hover':{

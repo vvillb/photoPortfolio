@@ -29,7 +29,6 @@ function Portfolio() {
        
        sx={{
         backgroundColor:'background.main',
-
        }}
        >
 
@@ -37,7 +36,8 @@ function Portfolio() {
         sx={{
             alignItems:"center",
                  }}>
-            <Link to='/editorials'>
+            <Link to='/editorials' underline="none"
+>
             <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0,
@@ -59,7 +59,8 @@ function Portfolio() {
            
         </Grid>
         <Grid item xs={12} sm={6} lg={3}>
-        <Link to='/beauty'>
+        <Link to='/beauty' underline="none"
+>
         <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0,
@@ -76,7 +77,8 @@ function Portfolio() {
             </Typography>
         </Grid>
         <Grid item xs={12} sm={6} lg={3}>
-            <Link to='/portraits'>
+            <Link to='/portraits' underline="none"
+>
         <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0,
@@ -93,7 +95,8 @@ function Portfolio() {
             </Typography>
         </Grid>
         <Grid item xs={12} sm={6} lg={3}>
-            <Link to='/brands'>
+            <Link to='/brands' underline="none"
+>
         <Card sx={{
                 aspectRatio: 1,
                 borderRadius:0,
