@@ -76,7 +76,7 @@ backgroundColor:'background.main'
         </Typography>
         </Grid>
         
-    <ImageList variant='masonry' cols={3} gap={8}>
+    <ImageList variant='masonry' cols={2} gap={8}>
     {itemData.map((item) => (
     <ImageListItem key={item.img}>
        
