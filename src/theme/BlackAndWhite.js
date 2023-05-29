@@ -16,41 +16,41 @@ export const BlackAndWhite=createTheme({
     },
         typography:{
         h1:{
-            fontFamily: 'Playfair Display'
+            fontFamily: "'Playfair Display','Pacifico','Abril Fatface'"
         },
         h2:{
-            fontFamily: 'Playfair Display'
+            fontFamily:  "'Playfair Display','Pacifico','Abril Fatface'"
         },
         h3:{
-            fontFamily: 'Cardo'
+            fontFamily: "'Cardo','Fira Sans','Cormorant Garamond'"
         },h4:{
-            fontFamily: 'Playfair Display'
+            fontFamily:  "'Playfair Display','Pacifico','Abril Fatface'"
         },
         h5:{
-            fontFamily: 'Cardo'   
+            fontFamily: "'Cardo','Fira Sans','Cormorant Garamond'"  
         },     
         h6:{
-            fontFamily: 'Cardo'        
+            fontFamily: "'Cardo','Fira Sans','Cormorant Garamond'"       
         },
         subtitle1:{
-            fontFamily: 'Cardo'  
+            fontFamily: "'Cardo','Fira Sans','Cormorant Garamond'" 
         },
         subtitle2:{
-            fontFamily: 'Cardo'  
+            fontFamily: "'Cardo','Fira Sans','Cormorant Garamond'" 
         },
         body1:{
-            fontFamily: 'Cardo'          },
+            fontFamily: "'Cardo','Fira Sans','Cormorant Garamond'"         },
         body2:{
-            fontFamily: 'Cardo'  
+            fontFamily: "'Cardo','Fira Sans','Cormorant Garamond'" 
         },
         button:{
-            fontFamily: 'Cardo'  
+            fontFamily: "'Cardo','Fira Sans','Cormorant Garamond'" 
         },
         caption:{
-            fontFamily: 'Cardo'  
+            fontFamily: "'Cardo','Fira Sans','Cormorant Garamond'" 
         },
         overline:{
-            fontFamily: 'Cardo'  
+            fontFamily: "'Cardo','Fira Sans','Cormorant Garamond'" 
         },        
        
     }
