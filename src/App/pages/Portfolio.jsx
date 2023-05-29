@@ -28,13 +28,15 @@ function Portfolio() {
        minHeight='100vh'
        
        sx={{
-backgroundColor:'background.main'
+        backgroundColor:'background.main',
+
        }}
        >
 
         <Grid item xs={12} sm={6} lg={3} 
         sx={{
-        }}>
+            alignItems:"center",
+                 }}>
             <Link to='/editorials'>
             <Card sx={{
                 aspectRatio: 1,

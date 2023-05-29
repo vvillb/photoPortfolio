@@ -8,7 +8,8 @@ const Layout = ({children}) => {
     <Box>
       <NavBar/>
       <Box
-      
+        component='main'
+        sx={{ flexGrow: 1 , maxWidth:'100vw', justifyContent:'center'}}
      >
         <Toolbar/>
         {children}
