@@ -23,7 +23,7 @@ const HomePage = () => {
     }}>
    
     <Portada/>
-  <Grid item >
+  <Grid item width='100vw'>
     <Hero />
   </Grid>
  

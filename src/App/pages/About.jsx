@@ -1,7 +1,9 @@
-import { Link } from 'react-router-dom'
+
 import { useEffect } from 'react'
 import Layout from '../../layout/Layout'
-import { Button, Grid, Typography } from '@mui/material'
+import { Link as RouterLink, MemoryRouter } from 'react-router-dom';
+
+import { Button, Grid, Link, Typography } from '@mui/material'
 import playa from '../../assets/images/moodstories/mood6.jpg'
 
 
@@ -85,7 +87,7 @@ function About() {
               ><b>Spain</b></Button>
               
           </Typography>
-          <Link to='/portfolio'>
+          <Link component={RouterLink} to='/portfolio'>
         <Button
         sx={{
             color:'primary.darker',

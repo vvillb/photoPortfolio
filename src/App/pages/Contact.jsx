@@ -1,7 +1,7 @@
 import Layout from '../../layout/Layout'
 import { useEffect } from 'react'
-import { Button, Grid, Typography } from '@mui/material'
-import { Link } from 'react-router-dom'
+import { Button, Grid, Link, Typography } from '@mui/material'
+import { Link as RouterLink, MemoryRouter } from 'react-router-dom';
 import playa from  '../../assets/images/alba/alba5copy.jpg'
 
 
@@ -36,7 +36,7 @@ function Contact() {
           <Typography variant='h4' 
           
             >
-            email: <Link to='mailto:virginiavt98@gmail.com' underline="none"
+            email: <Link component={RouterLink} to='mailto:virginiavt98@gmail.com' underline="none"
 >
               <Button
               sx={{
@@ -48,7 +48,7 @@ function Contact() {
          
           
           <Typography variant='h4'>
-            instagram: <Link to='https://www.instagram.com/v.villb/' underline="none"
+            instagram: <Link component={RouterLink} to='https://www.instagram.com/v.villb/' underline="none"
 >
               <Button
               sx={{

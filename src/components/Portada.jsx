@@ -48,7 +48,7 @@ const Portada = () => {
         
             <Grid item xs={12} md={6}
             sx={{
-                    
+                display: { xs: 'none', md: 'flex' } 
                 }}>
                     <Card sx={{
            
